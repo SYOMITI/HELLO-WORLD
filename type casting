@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int length = 8;
+    int width = 5;
+    double area;
+
+    // Cast length and width to double for the area calculation
+    area = static_cast<double>(length) * static_cast<double>(width);
+
+    cout << "The area of the rectangle is: " << area << endl;
+
+    return 0;
+}
